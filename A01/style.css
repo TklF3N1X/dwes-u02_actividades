@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+    margin: 0;
+}
+
+/* Cabecera */
+
+header {
+    background-color: green;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Contenido */
+
+main {
+    width: 80%;
+    margin: 30px auto;
+    flex: 1;
+}
+
+h1 {
+    color: green;
+    text-align: center;
+}
+
+h2 {
+    color: green;
+}
+
+p {
+    line-height: 1.5;
+}
+
+/* IMÁGENES */
+
+img {
+    max-width: 100%;
+}
+
+/* Catálogo */
+
+.productos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.producto {
+    width: 180px;
+    padding: 15px;
+    background-color: #eef6ee;
+    text-align: center;
+}
+
+.producto img {
+    width: 150px;
+    height: 150px;
+}
+
+/* Promociones */
+
+.promociones {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.promocion {
+    width: 250px;
+    padding: 15px;
+    background-color: #eef6ee;
+}
+
+.promocion img {
+    width: 100%;
+}
+
+/* Formulario */
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 8px;
+    border: none;
+    margin-top: 5px;
+}
+
+/* PIE */
+
+footer {
+    background-color: green;
+    color: white;
+    text-align: center;
+    height: 50px;
+    margin-top: 30px;
+}
